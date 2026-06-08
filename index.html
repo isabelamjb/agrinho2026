@@ -5,143 +5,153 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Raízes do Amanhã: Agricultura Regenerativa</title>
  <style>
- /* Definindo as cores do site (Verde e rosa) */
+ /* Paleta de Cores e Estilo Geral (Verde e Rosa) */
  body {
- font-family: Arial, sans-serif;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  margin: 0;
  padding: 0;
- background-color: #3b1804; /
- color: #2c4c2c; /* Texto em verde escuro */
+ background-color: #e2edd5; /* Fundo verde-oliva bem suave */
+ color: #2f4f2f; /* conteúdo principal em verde escuro */
+ line-height: 1.6;
  }
 
- /* Cabeçalho do Site */
+ /* Cabeçalho */
  header {
- background-color: #2e6f40; /* Verde principal */
- color: white;
+ background-color: #ffffff;
  padding: 30px 20px;
  text-align: center;
- border-bottom: 5px solid #4d2d3a; 
+ border-bottom: 5px solid #e88fa9;
+ box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+ }
+
+ /* Logo */
+ .logo-canva {
+ max-width: 150px;
+ height: auto;
+ margin-bottom: 10px;
+ border-radius: 50%; /* Mantém o formato redondinho da sua logo */
+ box-shadow: 0 4px 8px rgba(0,0,0,0.1);
  }
 
  header h1 {
+ color: #3b6b4c; /* Verde */
  margin: 0;
- font-size: 2.5em;
+ font-size: 2.6em;
+ font-weight: 700;
  }
 
  header p {
- margin: 10px 0 0 0;
- font-style: italic;
- color: #ffe6f2; /* Texto do subtítulo em rosa claro */
+ color: #e88fa9; /* Rosa */
+ font-size: 1.4em;
+ margin: 5px 0 0 0;
+ font-weight: 600;
  }
 
- /* Menu de Navegação */
- nav {
- background-color: #ff66a3; /* Rosa */
+ /* Conteúdo principal */
+ main {
+ max-width: 850px;
+ margin: 40px auto;
+ padding: 0 20px;
+ }
+
+ /* Conteúdo */
+ .card {
+ background: #ffffff;
+ border-radius: 12px;
+ padding: 30px;
+ margin-bottom: 30px;
+ box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+ border: 1px solid #d4e4c3;
+ }
+
+ .card h2 {
+ color: #1e3d27;
+ margin-top: 0;
+ font-size: 1.7em;
+ border-bottom: 3px solid #e88fa9; /* Linha rosa abaixo dos títulos */
+ padding-bottom: 8px;
+ }
+
+ .card strong {
+ color: #3b6b4c;
+ }
+
+ /* Estilo para as Imagens e Infográficos */
+ .image-container {
  text-align: center;
- padding: 10px;
+ margin: 25px 0;
  }
 
- nav a {
- color: white;
+ .image-container img {
+ max-width: 100%;
+ height: auto;
+ border-radius: 8px;
+ box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+ }
+
+ .legenda-imagem {
+ font-size: 0.85em;
+ color: #6b8e23;
+ font-style: italic;
+ margin-top: 5px;
+ display: block;
+ }
+
+ /* Seção de Referências e Fontes */
+ .secao-fontes {
+ background-color: #ffffff;
+ border-left: 5px solid #3b6b4c;
+ padding: 20px;
+ border-radius: 4px;
+ margin-top: 40px;
+ }
+
+ .secao-fontes h3 {
+ margin-top: 0;
+ color: #1e3d27;
+ }
+
+ .fonte-item {
+ font-size: 0.9em;
+ color: #4a6b4a;
+ margin-bottom: 12px;
+ list-style-type: none;
+ }
+
+ .fonte-item a {
+ color: #e88fa9;
  text-decoration: none;
  font-weight: bold;
- margin: 0 15px;
  }
 
- nav a:hover {
+ .fonte-item a:hover {
  text-decoration: underline;
  }
 
- /* Conteúdo Principal */
- main {
- max-width: 900px;
- margin: 30px auto;
- padding: 20px;
- background-color: white;
- border-radius: 8px;
- box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
- border-left: 5px solid #2e6f40;
- }
-
- h2 {
- color: #ff66a3; /* Títulos das seções em Rosa */
- border-bottom: 2px solid #2e6f40;
- padding-bottom: 5px;
- }
-
- /* Estilo dos cartões de conceitos (MIP, ABC, etc) */
- .conceito-card {
- background-color: #f9f9f9;
- border-left: 4px solid #2e6f40;
- padding: 15px;
- margin-bottom: 15px;
- border-radius: 4px;
- }
-
- .conceito-card strong {
- color: #2e6f40;
- font-size: 1.2em;
- }
-
- /* Rodapé do site */
+ /* Referências*/
  footer {
- background-color: #2c4c2c;
- color: white;
  text-align: center;
- padding: 15px;
- margin-top: 40px;
- font-size: 0.9em;
- border-top: 4px solid #ff66a3;
+ padding: 25px;
+ background-color: #3b6b4c;
+ color: #ffffff;
+ margin-top: 60px;
+ border-top: 5px solid #e88fa9;
+ font-weight: 500;
  }
  </style>
 </head>
 <body>
 
  <header>
+ <img src="logo.png" alt="Logo Raízes do Amanhã" class="logo-canva">
  <h1>Raízes do Amanhã</h1>
- <p>Como o manejo regenerativo protege o bolso e o chão do produtor</p>
+ <p>O Amanhã Começa Aqui.</p>
  </header>
 
- <nav>
- <a href="#sobre">Sobre</a>
- <a href="#conceitos">Práticas Sustentáveis</a>
- </nav>
-
  <main>
- <section id="sobre">
- <h2>O Foco do Projeto</h2>
- <p>O projeto une a <strong>sustentabilidade com a economia</strong>. Ele mostra que a agricultura regenerativa ajuda o produtor a gastar menos com fertilizantes químicos e a ter uma lavoura mais forte contra secas ou pragas, provando que recuperar a natureza também traz retorno financeiro para quem planta.</p>
- </section>
 
- <section id="conceitos">
- <h2>Práticas e Conceitos Fundamentais</h2>
- <p>Com base nos estudos da Embrapa e nos cadernos de campo, aqui estão os pilares para transformar a produção:</p>
-
- <div class="conceito-card">
- <p><strong>MIP:</strong> Manejo Integrado de Pragas.</p>
- </div>
-
- <div class="conceito-card">
- <p><strong>Agricultura Regenerativa:</strong> Melhorar a terra, trazer o manejo para a terra melhorar com a integração de manejos (biológicos e sustentáveis).</p>
- </div>
-
- <div class="conceito-card">
- <p><strong>ABC:</strong> Agricultura de Baixo Carbono.</p>
- </div>
-
- <div class="conceito-card">
- <p><strong>ILPF:</strong> Integração entre a Lavoura, a Agropecuária e a Floresta (como aproveitar ao máximo o espaço de forma sustentável).</p>
- </div>
-
- <div class="conceito-card">
- <p><strong>Silvicultura:</strong> O cultivo de florestas. Plantam-se, por exemplo, árvores que serão utilizadas para fins comerciais e industriais, garantindo a preservação de outras áreas.</p>
- </div>
- </section>
- </main>
-
- <footer>
- <p>&copy; 2026 Projeto Agrinho </p>
- </footer>
-
-</body>
-</html>
+ <div class="card">
+ <h2>O que é Agricultura Regenerativa?</h2>
+ <p>A agricultura regenerativa é muito importante em relação ao que chamamos de sustentabilidade. Enquanto a agricultura tradicional mantém a produção sem degradar o ambiente, a regeneração busca a ajudar o ecossistema. A ideia central é tratar o solo como um organismo vivo e complexo, onde, ao invés de colocar fertilizantes na terra, o agricultor ajuda os ciclos da natureza.</p>
+ 
+ <div class="image-container">
