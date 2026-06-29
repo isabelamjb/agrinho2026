@@ -1,699 +1,753 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
- <meta charset="UTF-8" />
- <title>Raízes do Lucro</title>
- <!-- meta viewport: faz o site se ajustar bem em celular -->
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- <!-- meta descrição: ajuda em buscadores e compartilhamento -->
- <meta name="description" content="Plano de agricultura regenerativa para um futuro mais verde e produtivo." />
 
- <!-- Fontes do Google Fonts: uma arredondada para títulos, outra simples para o texto -->
- <link rel="preconnect" href="https://fonts.googleapis.com">
- <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
 
- <!-- Liga o CSS  -->
- <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>🌹 Raízes do Amanhã</title>
+
+<!-- Fonte do Google -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
- <!-- ===================== CABEÇALHO ===================== -->
- <header class="header">
- <div class="header-inner">
- <h1 class="logo"> Raízes do Lucro</h1>
- <nav class="nav">
- <a href="#objetivo">Objetivo</a>
- <a href="#pratica">Prática</a>
- <a href="#etapas">Como começamos</a>
- <a href="#resultados">Resultados</a>
- <a href="#criancas">Espaço Kids</a>
- <a href="#chat">Tire sua dúvida</a>
- </nav>
- </div>
- </header>
+<!-- ===========================
+     CABEÇALHO
+=========================== -->
 
- <!-- ===================== BOTÃO DE ACESSIBILIDADE =====================
- Este botão ativa/desativa o modo de acessibilidade via JavaScript.
- Atalho de teclado: tecla "A" também ativa (ver script.js) -->
- <button id="btn-acessibilidade" class="btn-acessibilidade" aria-pressed="false">
- Modo Acessível
- </button>
+<header>
 
- <!-- ===================== HERO / INTRODUÇÃO ===================== -->
- <section class="hero">
- <div class="hero-content">
- <p class="eyebrow">Plano de Agricultura Regenerativa</p>
- <h2>Um solo saudável é a raiz de um lucro duradouro.</h2>
- <p class="hero-texto">
- Nossa empresa criou um plano completo de agricultura regenerativa para aplicar com nossos
- futuros clientes. Veja abaixo como funciona, do solo até a colheita.
- </p>
- <!-- Botão de interação obrigatório: rola a página até a seção do chat -->
- <button class="btn-interativo" onclick="document.getElementById('chat').scrollIntoView({behavior:'smooth'})">
- Fazer uma pergunta
- </button>
- </div>
- </section>
+<div class="logo">
 
- <!-- ===================== OBJETIVO ===================== -->
- <section id="objetivo" class="secao secao-rosa">
- <h2> Objetivo</h2>
- <p>
- Regenerar o solo e a paisagem para aumentar a biodiversidade, melhorar a retenção de água,
- sequestrar carbono e aumentar a produtividade de forma fácil e econômica.
- </p>
- </section>
+<h1>🌹 Raízes do Amanhã</h1>
 
- <!-- ===================== PRÁTICA ===================== -->
- <section id="pratica" class="secao secao-verde">
- <h2> Prática</h2>
- <p>
- Adotamos na nossa empresa práticas que protejam e reconstruam o solo. As principais ações incluem:
- </p>
- <ul class="lista-pratica">
- <li>Manter o solo coberto com palhada e plantas de cobertura</li>
- <li>Plantar sempre que possível</li>
- <li>Integrar árvores, lavoura e pecuária</li>
- <li>Aplicar compostagem e biofertilizantes para devolver matéria orgânica</li>
- <li>Usar manejo holístico nas pastagens</li>
- </ul>
- </section>
+<p>Agricultura Regenerativa</p>
 
- <!-- ===================== COMO COMEÇAMOS (ETAPAS) ===================== -->
- <section id="etapas" class="secao secao-amarela">
- <h2> Como começamos</h2>
- <div class="etapas-grid">
- <div class="etapa">
- <span class="etapa-numero">1</span>
- <h3>Avaliação</h3>
- <p>Analisar histórico da área, coletar amostras de solo e mapear água e microclimas.</p>
- </div>
- <div class="etapa">
- <span class="etapa-numero">2</span>
- <h3>Piloto</h3>
- <p>Implementar as práticas em uma parcela teste para ajustar espécies e manejo.</p>
- </div>
- <div class="etapa">
- <span class="etapa-numero">3</span>
- <h3>Escalonamento</h3>
- <p>Ampliar as técnicas bem-sucedidas, priorizando cobertura do solo e manejo da água.</p>
- </div>
- <div class="etapa">
- <span class="etapa-numero">4</span>
- <h3>Capacitação</h3>
- <p>Treinar as pessoas envolvidas e buscar assistência técnica.</p>
- </div>
- </div>
- </section>
+</div>
 
- <!-- ===================== RESULTADOS ESPERADOS ===================== -->
- <section id="resultados" class="secao secao-rosa">
- <h2> Resultados esperados em 1–5 anos</h2>
- <div class="resultados-grid">
- <div class="resultado-card">
- <h3>1 ano</h3>
- <p>Aumento de cobertura do solo, menos erosão e melhora inicial na infiltração de água.</p>
- </div>
- <div class="resultado-card">
- <h3>3 anos</h3>
- <p>Subida visível de matéria orgânica do solo, maior diversidade de plantas e polinizadores; estabilidade na produção.</p>
- </div>
- <div class="resultado-card">
- <h3>5 anos</h3>
- <p>Solo mais fértil, maior capacidade de retenção de água, redução de insumos químicos e sequestro crescente de carbono.</p>
- </div>
- </div>
- </section>
+<nav>
 
- <!-- ===================== INDICADORES ===================== -->
- <section class="secao secao-verde">
- <h2> Indicadores de sucesso</h2>
- <p>
- Monitoraremos matéria orgânica do solo, porosidade/infiltração, diversidade de plantas e
- insetos, produção por hectare e uso de insumos.
- </p>
- </section>
+<a href="#inicio">Início</a>
 
- <!-- ===================== INVESTIMENTO E RISCOS ===================== -->
- <section class="secao secao-amarela">
- <h2> Investimento e riscos</h2>
- <p>
- Custos iniciais tendem a ser moderados (sementes de cobertura, equipamentos para plantio
- direto, insumos para compostagem). Riscos incluem adaptação local de espécies e tempo para
- recuperação; iremos fazer testes piloto e assistência técnica.
- </p>
- </section>
+<a href="#objetivo">Objetivo</a>
 
- <!-- ===================== ESPAÇO KIDS (INTERATIVO) =====================
- Seção pensada para os filhos de quem trabalha no agro sustentável.
- Cada botão, ao ser clicado, chama uma função no script.js que
- mostra uma curiosidade na caixa de texto abaixo. -->
- <section id="criancas" class="secao secao-kids">
- <h2> Espaço Kids: Descubra o solo!</h2>
- <p>Clique em cada amiguinho da terra e aprenda uma curiosidade!</p>
+<a href="#como">Como Funciona</a>
 
- <div class="kids-grid">
- <button class="kids-botao" onclick="mostrarCuriosidade('sol')"> Sol</button>
- <button class="kids-botao" onclick="mostrarCuriosidade('minhoca')"> Minhoca</button>
- <button class="kids-botao" onclick="mostrarCuriosidade('planta')"> Planta de cobertura</button>
- <button class="kids-botao" onclick="mostrarCuriosidade('arvore')"> Árvore</button>
- <button class="kids-botao" onclick="mostrarCuriosidade('agua')"> Água</button>
- </div>
+<a href="#chat">Chat</a>
 
- <!-- aria-live: faz leitores de tela anunciarem o texto quando ele mudar -->
- <div id="caixa-curiosidade" class="caixa-curiosidade" aria-live="polite">
- Clique em um amiguinho acima para começar! 
- </div>
- </section>
+<a href="#referencias">Referências</a>
 
- <!-- ===================== CHAT DE PERGUNTAS ===================== -->
- <section id="chat" class="secao secao-chat">
- <h2> Tire sua dúvida</h2>
- <p>Escreva sua pergunta sobre o plano de agricultura regenerativa. Vamos responder por aqui!</p>
+</nav>
 
- <!-- Não usamos <form> para evitar recarregar a página; o JS cuida do envio -->
- <div class="chat-caixa">
- <div id="mensagens-chat" class="mensagens-chat">
- <div class="mensagem mensagem-bot">
- Olá! Pode escrever sua pergunta sobre o nosso plano de agricultura regenerativa.
- </div>
- </div>
+</header>
 
- <div class="chat-input-area">
- <label for="input-pergunta" class="sr-only">Digite sua pergunta</label>
- <input
- type="text"
- id="input-pergunta"
- placeholder="Digite sua pergunta aqui..."
- aria-label="Digite sua pergunta"
- />
- <button id="btn-enviar" class="btn-enviar" onclick="enviarPergunta()">Enviar</button>
- </div>
- </div>
- </section>
+<!-- ===========================
+      INÍCIO
+=========================== -->
 
- <!-- ===================== RODAPÉ / REFERÊNCIAS ===================== -->
- <footer class="footer">
- <p> Raízes do Lucro — Plano de Agricultura Regenerativa</p>
- <p class="referencia">Criado por Isabela Matos de Jesus Bulcão</p>
- </footer>
+<section id="inicio" class="hero">
 
- <!-- Liga o JavaScript externo (sempre no final do body, para o HTML carregar antes) -->
- <script src="script.js"></script>
+<h2>Cultivando hoje o futuro de amanhã 🌱</h2>
+
+<p>
+
+Minha empresa fez um plano de agricultura regenerativa para aplicarmos em nossos futuros clientes.
+
+Conheça como pretendemos regenerar o solo, preservar a natureza e produzir alimentos de maneira sustentável.
+
+</p>
+
+<button onclick="mostrarMensagem()">
+
+Conheça nosso projeto
+
+</button>
+
+</section>
+
+<!-- ===========================
+      OBJETIVO
+=========================== -->
+
+<section id="objetivo">
+
+<h2>🌳 Nosso Objetivo</h2>
+
+<p>
+
+Regenerar o solo e a paisagem para aumentar a biodiversidade, melhorar a retenção de água, sequestrar carbono e aumentar a produtividade de forma fácil e econômica.
+
+</p>
+
+</section>
+
+<!-- ===========================
+      PRÁTICAS
+=========================== -->
+
+<section id="como">
+
+<h2>🌾 Como fazemos</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>🔎 Avaliação</h3>
+
+<p>
+
+Analisamos o histórico da área, o solo, a água e o clima antes de iniciar o projeto.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🌱 Projeto Piloto</h3>
+
+<p>
+
+Aplicamos as práticas em uma pequena área para avaliar os resultados.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🌿 Expansão</h3>
+
+<p>
+
+As técnicas aprovadas são levadas para toda a propriedade.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>👨‍🌾 Capacitação</h3>
+
+<p>
+
+Treinamos produtores para manter as práticas regenerativas.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===========================
+      AÇÕES
+=========================== -->
+
+<section>
+
+<h2>🍃 Práticas Utilizadas</h2>
+
+<ul>
+
+<li>🌾 Manter o solo sempre coberto.</li>
+
+<li>🌱 Plantas de cobertura.</li>
+
+<li>♻ Compostagem e biofertilizantes.</li>
+
+<li>🌳 Integração entre árvores, lavoura e pecuária.</li>
+
+<li>💧 Melhor manejo da água.</li>
+
+<li>🌎 Manejo holístico.</li>
+
+</ul>
+
+</section>
+
+<!-- ===========================
+      RESULTADOS
+=========================== -->
+
+<section>
+
+<h2>📈 Resultados Esperados</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>🌱 1 Ano</h3>
+
+<p>
+
+Maior cobertura do solo, redução da erosão e melhora da infiltração da água.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🌳 3 Anos</h3>
+
+<p>
+
+Mais matéria orgânica, biodiversidade e estabilidade na produção.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🌎 5 Anos</h3>
+
+<p>
+
+Solo fértil, menos uso de produtos químicos e maior retenção de água.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+<!-- ===========================
+      CHAT
+=========================== -->
+
+<section id="chat">
+
+<h2>💬 Tire sua dúvida</h2>
+
+<p>Digite uma pergunta sobre Agricultura Regenerativa.</p>
+
+<input type="text" id="pergunta" placeholder="Ex.: Como substituir fertilizantes?">
+
+<button onclick="responder()">
+
+Perguntar
+
+</button>
+
+<p id="resposta"></p>
+
+</section>
+
+<!-- ===========================
+      ACESSIBILIDADE
+=========================== -->
+
+<section>
+
+<h2>♿ Acessibilidade</h2>
+
+<p>Escolha uma opção:</p>
+
+<button onclick="aumentarFonte()">
+
+A+
+
+</button>
+
+<button onclick="diminuirFonte()">
+
+A-
+
+</button>
+
+</section>
+
+<!-- ===========================
+      SOBRE O PROJETO
+=========================== -->
+
+<section>
+
+<h2>💚 Nosso compromisso</h2>
+
+<p>
+
+A Agricultura Regenerativa busca recuperar o solo, preservar a biodiversidade, melhorar a qualidade da água e reduzir o uso de produtos químicos. Nosso projeto foi desenvolvido pensando em um futuro mais sustentável para produtores e para o meio ambiente.
+
+</p>
+
+</section>
+
+<!-- ===========================
+      REFERÊNCIAS
+=========================== -->
+
+<section id="referencias">
+
+<h2>📚 Referências Bibliográficas</h2>
+
+<p>
+
+<b>Textos escritos por:</b>
+
+Isabela Matos de Jesus Bulcão.
+
+</p>
+
+<p>
+
+Elementos gráficos elaborados com auxílio da plataforma Canva.
+
+</p>
+
+<ul>
+
+<li>Regeneration International</li>
+
+<li>Rodale Institute</li>
+
+<li>Kiss the Ground</li>
+
+<li>Savory Institute</li>
+
+<li>Rizoma Agro</li>
+
+<li>Pretaterra</li>
+
+</ul>
+
+</section>
+
+<!-- ===========================
+      COMO O SITE FOI FEITO
+=========================== -->
+
+<section>
+
+<h2>💻 Como este site foi desenvolvido</h2>
+
+<p>
+
+Este site foi desenvolvido utilizando o Visual Studio Code (VS Code).
+
+Foram utilizadas as linguagens HTML, CSS e JavaScript.
+
+O HTML foi usado para estruturar as páginas, o CSS para criar o design e o JavaScript para desenvolver o chat e os recursos de acessibilidade.
+
+</p>
+
+</section>
+
+<!-- ===========================
+      RODAPÉ
+=========================== -->
+
+<footer>
+
+<p>
+
+🌹 Raízes do Amanhã © 2026
+
+</p>
+
+<p>
+
+Projeto sobre Agricultura Regenerativa.
+
+</p>
+
+</footer>
+
+<!-- JavaScript -->
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
 
-/* ===================== RESET BÁSICO ===================== */
-* {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+/* ==========================
+   ESTILO GERAL
+========================== */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
 }
 
-/* Classe para esconder visualmente, mas manter acessível a leitores de tela */
-.sr-only {
- position: absolute;
- width: 1px;
- height: 1px;
- overflow: hidden;
- clip: rect(0,0,0,0);
+body{
+font-family:'Quicksand',sans-serif;
+background:#FFFDF8;
+color:#2E5E3E;
+font-size:18px;
+line-height:1.6;
 }
 
-/* ===================== VARIÁVEIS DE COR (paleta amarelo, rosa e verde pastel) ===================== */
-:root {
- --amarelo: #F6D272;
- --amarelo-claro: #FCEFC7;
- --rosa: #F4AFC4;
- --rosa-claro: #FCE2EA;
- --verde: #A9D6B8;
- --verde-claro: #E3F2E6;
- --marrom-texto: #4A3B2A;
- --branco: #FFFDF8;
+/* ==========================
+   CABEÇALHO
+========================== */
+
+header{
+background:#2E5E3E;
+color:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+position:sticky;
+top:0;
 }
 
-body {
- font-family: 'Nunito', sans-serif;
- color: var(--marrom-texto);
- background-color: var(--branco);
- line-height: 1.6;
+.logo h1{
+font-family:'Playfair Display',serif;
+font-size:35px;
 }
 
-h1, h2, h3 {
- font-family: 'Fredoka', sans-serif;
+.logo p{
+font-size:15px;
 }
 
-/* ===================== CABEÇALHO ===================== */
-.header {
- background-color: var(--verde);
- padding: 16px 24px;
- position: sticky;
- top: 0;
- z-index: 10;
+nav a{
+text-decoration:none;
+color:white;
+margin-left:20px;
+font-weight:bold;
+transition:.3s;
 }
 
-.header-inner {
- display: flex;
- justify-content: space-between;
- align-items: center;
- flex-wrap: wrap;
- gap: 12px;
- max-width: 1100px;
- margin: 0 auto;
+nav a:hover{
+color:#FFD54F;
 }
 
-.logo {
- font-size: 1.4rem;
+/* ==========================
+   HERO
+========================== */
+
+.hero{
+background:linear-gradient(#81C784,#A5D6A7);
+text-align:center;
+padding:100px 10%;
+color:white;
 }
 
-.nav a {
- color: var(--marrom-texto);
- text-decoration: none;
- font-weight: 600;
- margin-left: 16px;
+.hero h2{
+font-family:'Playfair Display',serif;
+font-size:48px;
+margin-bottom:20px;
 }
 
-.nav a:hover,
-.nav a:focus {
- text-decoration: underline;
+.hero p{
+max-width:700px;
+margin:auto;
 }
 
-/* ===================== BOTÃO DE ACESSIBILIDADE ===================== */
-.btn-acessibilidade {
- position: fixed;
- bottom: 16px;
- right: 16px;
- z-index: 20;
- background-color: var(--marrom-texto);
- color: var(--branco);
- border: none;
- padding: 12px 16px;
- border-radius: 30px;
- font-weight: 700;
- cursor: pointer;
- box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+.hero button{
+margin-top:30px;
+padding:15px 35px;
+border:none;
+border-radius:30px;
+background:#F8BBD0;
+color:#2E5E3E;
+font-size:18px;
+cursor:pointer;
+transition:.3s;
 }
 
-.btn-acessibilidade:hover,
-.btn-acessibilidade:focus {
- outline: 3px solid var(--amarelo);
+.hero button:hover{
+background:#EC407A;
+color:white;
+transform:scale(1.05);
 }
 
-/* ===================== HERO ===================== */
-.hero {
- background: linear-gradient(135deg, var(--amarelo-claro), var(--rosa-claro));
- padding: 64px 24px;
- text-align: center;
+/* ==========================
+   SEÇÕES
+========================== */
+
+section{
+padding:70px 10%;
 }
 
-.hero-content {
- max-width: 700px;
- margin: 0 auto;
+section h2{
+font-family:'Playfair Display',serif;
+font-size:35px;
+text-align:center;
+margin-bottom:25px;
+color:#2E5E3E;
 }
 
-.eyebrow {
- font-weight: 700;
- letter-spacing: 1px;
- text-transform: uppercase;
- color: #9c6f3a;
- margin-bottom: 8px;
+section p{
+text-align:center;
+max-width:850px;
+margin:auto;
 }
 
-.hero h2 {
- font-size: 2rem;
- margin-bottom: 16px;
+/* ==========================
+   CARDS
+========================== */
+
+.cards{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
+margin-top:35px;
 }
 
-.hero-texto {
- margin-bottom: 24px;
+.card{
+background:white;
+width:250px;
+padding:25px;
+border-radius:18px;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+transition:.3s;
+text-align:center;
 }
 
-.btn-interativo {
- background-color: var(--marrom-texto);
- color: var(--branco);
- border: none;
- padding: 14px 28px;
- font-size: 1rem;
- font-weight: 700;
- border-radius: 30px;
- cursor: pointer;
- transition: transform 0.2s ease;
+.card:hover{
+transform:translateY(-8px);
 }
 
-.btn-interativo:hover,
-.btn-interativo:focus {
- transform: scale(1.05);
- outline: 3px solid var(--verde);
+.card h3{
+margin-bottom:15px;
+color:#2E5E3E;
 }
 
-/* ===================== SEÇÕES GERAIS ===================== */
-.secao {
- padding: 56px 24px;
- max-width: 900px;
- margin: 0 auto;
+/* ==========================
+   LISTAS
+========================== */
+
+ul{
+max-width:700px;
+margin:30px auto;
+padding-left:20px;
 }
 
-.secao h2 {
- font-size: 1.6rem;
- margin-bottom: 16px;
+li{
+margin:12px 0;
+font-size:18px;
 }
 
-.secao-amarela { background-color: var(--amarelo-claro); }
-.secao-rosa { background-color: var(--rosa-claro); }
-.secao-verde { background-color: var(--verde-claro); }
+/* ==========================
+   CHAT
+========================== */
 
-/* como as seções acima usam max-width, o fundo colorido fica só na coluna;
- para o fundo colorido ocupar a tela toda, criamos um "wrapper" de largura total */
-.secao-amarela, .secao-rosa, .secao-verde, .secao-kids, .secao-chat {
- max-width: 100%;
- padding-left: 0;
- padding-right: 0;
+#chat{
+background:#FFF8E1;
+border-radius:20px;
+padding:40px;
 }
 
-.secao-amarela > *, .secao-rosa > *, .secao-verde > * {
- max-width: 900px;
- margin-left: auto;
- margin-right: auto;
- padding-left: 24px;
- padding-right: 24px;
+input{
+width:100%;
+padding:15px;
+border:2px solid #81C784;
+border-radius:12px;
+margin-top:20px;
+font-size:17px;
+font-family:'Quicksand',sans-serif;
 }
 
-/* ===================== LISTA DE PRÁTICAS ===================== */
-.lista-pratica {
- list-style: none;
- display: flex;
- flex-direction: column;
- gap: 10px;
+#chat button{
+margin-top:20px;
+padding:12px 25px;
+border:none;
+border-radius:30px;
+background:#66BB6A;
+color:white;
+font-size:17px;
+cursor:pointer;
+transition:.3s;
 }
 
-.lista-pratica li {
- background-color: var(--branco);
- padding: 12px 16px;
- border-radius: 12px;
- border-left: 5px solid var(--verde);
+#chat button:hover{
+background:#388E3C;
 }
 
-/* ===================== ETAPAS (GRID) ===================== */
-.etapas-grid {
- display: grid;
- grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
- gap: 20px;
- max-width: 900px;
- margin: 0 auto;
- padding: 0 24px;
+#resposta{
+margin-top:25px;
+font-weight:bold;
+color:#2E5E3E;
 }
 
-.etapa {
- background-color: var(--branco);
- border-radius: 16px;
- padding: 20px;
- text-align: center;
+/* ==========================
+   ACESSIBILIDADE
+========================== */
+
+section button{
+padding:12px 22px;
+margin:10px;
+border:none;
+border-radius:25px;
+background:#F8BBD0;
+font-size:17px;
+cursor:pointer;
+transition:.3s;
 }
 
-.etapa-numero {
- display: inline-block;
- background-color: var(--rosa);
- color: var(--marrom-texto);
- font-weight: 700;
- width: 32px;
- height: 32px;
- line-height: 32px;
- border-radius: 50%;
- margin-bottom: 8px;
+section button:hover{
+background:#EC407A;
+color:white;
 }
 
-/* ===================== RESULTADOS (GRID) ===================== */
-.resultados-grid {
- display: grid;
- grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
- gap: 20px;
- max-width: 900px;
- margin: 0 auto;
- padding: 0 24px;
+/* ==========================
+   REFERÊNCIAS
+========================== */
+
+#referencias{
+background:#E8F5E9;
+border-radius:20px;
 }
 
-.resultado-card {
- background-color: var(--branco);
- border-radius: 16px;
- padding: 20px;
- border-top: 6px solid var(--amarelo);
+/* ==========================
+   RODAPÉ
+========================== */
+
+footer{
+background:#2E5E3E;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:50px;
 }
 
-/* ===================== ESPAÇO KIDS ===================== */
-.secao-kids {
- background-color: var(--rosa-claro);
- text-align: center;
- padding: 56px 24px;
+footer p{
+margin:8px 0;
 }
 
-.kids-grid {
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
- gap: 14px;
- margin: 24px 0;
+/* ==========================
+   RESPONSIVO
+========================== */
+
+@media(max-width:900px){
+
+header{
+flex-direction:column;
+text-align:center;
 }
 
-.kids-botao {
- background-color: var(--amarelo);
- border: none;
- padding: 14px 18px;
- border-radius: 16px;
- font-size: 1rem;
- font-weight: 700;
- cursor: pointer;
- transition: transform 0.15s ease;
+nav{
+margin-top:15px;
 }
 
-.kids-botao:hover,
-.kids-botao:focus {
- transform: translateY(-4px) rotate(-2deg);
- outline: 3px solid var(--verde);
+nav a{
+display:inline-block;
+margin:8px;
 }
 
-.caixa-curiosidade {
- background-color: var(--branco);
- max-width: 500px;
- margin: 0 auto;
- padding: 20px;
- border-radius: 16px;
- font-weight: 600;
- min-height: 60px;
+.hero h2{
+font-size:36px;
 }
 
-/* ===================== CHAT ===================== */
-.secao-chat {
- background-color: var(--verde-claro);
- padding: 56px 24px;
+.hero p{
+font-size:17px;
 }
 
-.chat-caixa {
- max-width: 600px;
- margin: 0 auto;
- background-color: var(--branco);
- border-radius: 16px;
- padding: 16px;
+.cards{
+flex-direction:column;
+align-items:center;
 }
 
-.mensagens-chat {
- display: flex;
- flex-direction: column;
- gap: 10px;
- max-height: 280px;
- overflow-y: auto;
- margin-bottom: 12px;
- padding-right: 6px;
+.card{
+width:90%;
 }
 
-.mensagem {
- padding: 10px 14px;
- border-radius: 12px;
- max-width: 85%;
+section{
+padding:50px 8%;
 }
 
-.mensagem-usuario {
- background-color: var(--amarelo);
- align-self: flex-end;
 }
 
-.mensagem-bot {
- background-color: var(--verde-claro);
- align-self: flex-start;
+/* ===========================
+   MENSAGEM DE BOAS-VINDAS
+=========================== */
+
+function mostrarMensagem() {
+    alert("🌱 Bem-vindo(a) ao projeto Raízes do Amanhã!");
 }
 
-.chat-input-area {
- display: flex;
- gap: 8px;
+/* ===========================
+   CHAT INTELIGENTE
+=========================== */
+
+function responder() {
+
+    let pergunta = document.getElementById("pergunta").value.toLowerCase();
+    let resposta = document.getElementById("resposta");
+
+    if (pergunta.includes("fertilizante")) {
+
+        resposta.innerHTML = "🌿 Você pode substituir parte dos fertilizantes químicos por compostagem, biofertilizantes e adubação verde.";
+
+    } else if (pergunta.includes("solo")) {
+
+        resposta.innerHTML = "🌱 Para recuperar o solo utilize plantas de cobertura, matéria orgânica e evite deixá-lo descoberto.";
+
+    } else if (pergunta.includes("água")) {
+
+        resposta.innerHTML = "💧 A cobertura do solo melhora a infiltração da água e reduz a evaporação.";
+
+    } else if (pergunta.includes("erosão")) {
+
+        resposta.innerHTML = "🌾 Utilize palhada, curvas de nível e cobertura vegetal permanente.";
+
+    } else if (pergunta.includes("compostagem")) {
+
+        resposta.innerHTML = "♻ A compostagem devolve nutrientes ao solo e reduz o uso de fertilizantes químicos.";
+
+    } else if (pergunta.includes("biodiversidade")) {
+
+        resposta.innerHTML = "🦋 Plantar diferentes espécies e integrar árvores ajuda a aumentar a biodiversidade.";
+
+    } else if (pergunta.includes("carbono")) {
+
+        resposta.innerHTML = "🌍 A agricultura regenerativa contribui para o sequestro de carbono no solo.";
+
+    } else {
+
+        resposta.innerHTML = "😊 Ainda não encontrei uma resposta para essa pergunta. Procure um especialista da nossa equipe.";
+
+    }
+
 }
 
-#input-pergunta {
- flex: 1;
- padding: 10px 14px;
- border: 2px solid var(--verde);
- border-radius: 10px;
- font-family: inherit;
- font-size: 1rem;
+/* ===========================
+   ACESSIBILIDADE
+=========================== */
+
+let tamanho = 18;
+
+function aumentarFonte() {
+
+    tamanho += 2;
+
+    document.body.style.fontSize = tamanho + "px";
+
 }
 
-.btn-enviar {
- background-color: var(--marrom-texto);
- color: var(--branco);
- border: none;
- padding: 10px 18px;
- border-radius: 10px;
- font-weight: 700;
- cursor: pointer;
+function diminuirFonte() {
+
+    if (tamanho > 14) {
+
+        tamanho -= 2;
+
+        document.body.style.fontSize = tamanho + "px";
+
+    }
+
 }
-
-.btn-enviar:hover,
-.btn-enviar:focus {
- outline: 3px solid var(--amarelo);
-}
-
-/* ===================== RODAPÉ ===================== */
-.footer {
- background-color: var(--marrom-texto);
- color: var(--branco);
- text-align: center;
- padding: 24px;
-}
-
-.referencia {
- font-size: 0.85rem;
- opacity: 0.8;
- margin-top: 4px;
-}
-
-/* ===================== MODO DE ACESSIBILIDADE =====================
- Esta classe é adicionada/removida no <body> pelo script.js.
- Aumenta o contraste e o tamanho da fonte para facilitar a leitura. */
-body.modo-acessivel {
- background-color: #000;
- color: #FFF;
-}
-
-body.modo-acessivel * {
- background-color: #000 !important;
- color: #FFF !important;
- border-color: #FFF !important;
-}
-
-body.modo-acessivel a,
-body.modo-acessivel button {
- text-decoration: underline;
-}
-
-body.modo-acessivel,
-body.modo-acessivel p,
-body.modo-acessivel li,
-body.modo-acessivel button,
-body.modo-acessivel input {
- font-size: 1.15rem !important;
-}
-
-/* ===================== RESPONSIVO (CELULAR) ===================== */
-@media (max-width: 600px) {
- .nav a {
- margin-left: 10px;
- font-size: 0.85rem;
- }
- .hero h2 {
- font-size: 1.5rem;
- }
-}
-
-/* =========================================================
- SCRIPT.JS - Raízes do Lucro
- Contém: modo acessível, curiosidades para crianças e chat de perguntas
- ========================================================= */
-
-/* ---------- 1) MODO DE ACESSIBILIDADE ---------- */
-// Pega o botão de acessibilidade pelo id
-const btnAcessibilidade = document.getElementById('btn-acessibilidade');
-
-// Função que liga/desliga o modo acessível
-function alternarAcessibilidade() {
- // toggle: adiciona a classe se não tiver, remove se já tiver
- document.body.classList.toggle('modo-acessivel');
-
- // Verifica se a classe está ativa agora
- const ativo = document.body.classList.contains('modo-acessivel');
-
- // Atualiza o atributo aria-pressed, para leitores de tela saberem o estado do botão
- btnAcessibilidade.setAttribute('aria-pressed', ativo);
-
- // Atualiza o texto do botão para o usuário saber o estado atual
- btnAcessibilidade.textContent = ativo
- ? ' Modo Acessível (Ativado)'
- : ' Modo Acessível';
-}
-
-// Clique no botão ativa a função
-btnAcessibilidade.addEventListener('click', alternarAcessibilidade);
-
-// Atalho de teclado: pressionar a tecla "A" também ativa/desativa
-// (facilita para quem usa apenas o teclado, sem precisar do mouse)
-document.addEventListener('keydown', function (evento) {
- // Evita o atalho disparar enquanto a pessoa está digitando em um campo de texto
- const digitando = evento.target.tagName === 'INPUT';
- if (!digitando && evento.key.toLowerCase() === 'a') {
- alternarAcessibilidade();
- }
-});
-
-
-/* ---------- 2) ESPAÇO KIDS: CURIOSIDADES ---------- */
-// Objeto com as curiosidades de cada elemento da natureza
-const curiosidades = {
- sol: ' O sol dá energia para as plantas crescerem através da fotossíntese!',
- minhoca: ' As minhocas fazem buracos no solo, ajudando a água e o ar a chegar nas raízes!',
- planta: ' As plantas de cobertura protegem o solo do sol forte e da chuva, como um cobertor verde!',
- arvore: ' As árvores dão sombra para os animais e ajudam a guardar carbono, limpando o ar!',
- agua: ' Um solo bem cuidado consegue guardar mais água para as plantas usarem depois!'
-};
-
-// Função chamada pelo onclick de cada botão kids no HTML
-function mostrarCuriosidade(elemento) {
- const caixa = document.getElementById('caixa-curiosidade');
- // Busca o texto no objeto curiosidades; se não existir, mostra mensagem padrão
- caixa.textContent = curiosidades[elemento] || 'Clique em um amiguinho para aprender algo novo!';
-}
-
-
-/* ---------- 3) CHAT DE PERGUNTAS ---------- */
-// Pega os elementos do chat
-const inputPergunta = document.getElementById('input-pergunta');
-const mensagensChat = document.getElementById('mensagens-chat');
-
-// Função chamada pelo botão "Enviar"
-function enviarPergunta() {
- const texto = inputPergunta.value.trim(); // remove espaços vazios nas pontas
-
- // Se o campo estiver vazio, não faz nada
- if (texto === '') return;
-
- // Cria a bolha de mensagem do usuário
- const bolhaUsuario = document.createElement('div');
- bolhaUsuario.classList.add('mensagem', 'mensagem-usuario');
- bolhaUsuario.textContent = texto;
- mensagensChat.appendChild(bolhaUsuario);
-
- // Limpa o campo de texto
- inputPergunta.value = '';
-
- // Cria a bolha de resposta automática (provisória), avisando que eu irei responder
- const bolhaResposta = document.createElement('div');
- bolhaResposta.classList.add('mensagem', 'mensagem-bot');
- bolhaResposta.textContent = 'Obrigada pela pergunta! Eu vou te responder em breve por aqui.';
- mensagensChat.appendChild(bolhaResposta);
-
- // Rola o chat para a mensagem mais recente
- mensagensChat.scrollTop = mensagensChat.scrollHeight;
-}
-
-// Permite enviar a pergunta apertando "Enter" no campo de texto
-inputPergunta.addEventListener('keydown', function (evento) {
- if (evento.key === 'Enter') {
- enviarPergunta();
- }
-});
-
