@@ -1,94 +1,32 @@
-# agrinho2026
-# 🌹 Raízes do Amanhã
+# 🌱 Projeto Agrinho 2026: Raízes do Lucro 🌸
 
-## Projeto Agrinho 2026
-
-### 📖 Sobre o projeto
-
-O **Raízes do Amanhã** é um site desenvolvido para apresentar um plano de Agricultura Regenerativa. O objetivo é mostrar como práticas sustentáveis podem recuperar o solo, preservar a biodiversidade, melhorar a infiltração da água e aumentar a produtividade de forma econômica.
+Bem-vindo ao repositório do **Raízes do Lucro**, um site focado em espalhar as práticas e colher os frutos da **Agricultura Regenerativa** de forma simples, econômica e acessível! 
 
 ---
 
-## 🌱 Objetivo
+## 👩‍💻 Como o site foi desenvolvido?
 
-Regenerar o solo e a paisagem para aumentar a biodiversidade, melhorar a retenção de água, sequestrar carbono e promover uma produção agrícola mais sustentável.
+Este site foi construído do zero com foco em leveza, acessibilidade e design lúdico. O processo de criação seguiu as seguintes etapas:
 
----
-
-## 🛠️ Tecnologias utilizadas
-
-- HTML5
-- CSS3
-- JavaScript
-- Visual Studio Code (VS Code)
+1. **Planejamento de Identidade Visual:** Escolha de uma paleta de cores inspirada na natureza alegre (Tons de Verde Orgânico 🟢, detalhes em Rosa Floral 🌸 e destaques em Amarelo Sol 🟡).
+2. **Estruturação HTML5:** Uso de tags semânticas obrigatórias como `<header>`, `<section>`, `<ol>`, `<ul>` e `<footer>` para manter a organização que aprendemos nas aulas de Educação Digital.
+3. **Estilização com CSS3:** Aplicação de fontes fofas importadas diretamente do Google Fonts (`Fredoka` para títulos estruturados e `Quicksand` para leitura confortável), bordas arredondadas e cards flutuantes inspirados em páginas modernas de sementes orgânicas.
+4. **Interatividade com JavaScript:**
+   - Desenvolvimento de uma **Barra de Acessibilidade** dinâmica que aumenta ou diminui o tamanho de toda a tipografia do site em tempo real para pessoas com dificuldades visuais.
+   - Criação de um **Chatbot de Interação Inteligente** que intercepta palavras-chave do usuário (como *fertilizantes, pragas ou solo*) e sugere alternativas biológicas baseadas na ciência regenerativa automaticamente.
 
 ---
 
-## ✨ Funcionalidades
+## 📚 Referências Bibliográficas e Créditos
 
-- 🌿 Informações sobre Agricultura Regenerativa.
-- 💬 Chat com respostas automáticas.
-- ♿ Botões para aumentar e diminuir a fonte.
-- 📱 Layout responsivo.
-- 🎨 Interface nas cores verde, rosa e amarelo.
+> 📢 **Nota de Autoria:** Todos os textos conceituais, objetivos, metodologias de implantação e linhas do tempo presentes no site foram desenvolvidos e redigidos originalmente por **Isabela Matos de Jesus Bulcão**.
 
----
+Para embasamento e estudos sobre os pilares técnicos, foram consultadas as seguintes bases de referência da internet:
 
-## 📂 Estrutura do projeto
-
-```
-Raizes-do-Amanha/
-
-│── index.html
-│── style.css
-│── script.js
-│── README.md
-```
+* **Regeneration International:** [regenerationinternational.org](https://regenerationinternational.org) (Abordagem global sobre sequestro de carbono e saúde do solo).
+* **The Rodale Institute:** [rodaleinstitute.org](https://rodaleinstitute.org) (Dados sobre produtividade orgânica a longo prazo).
+* **Savory Institute:** [savory.global](https://savory.global) (Princípios do Manejo Holístico de pastagens aplicado no Brasil).
+* **Rizoma Agro:** [rizomaagro.com](https://www.rizomaagro.com) (Estudos de viabilidade econômica e agricultura em larga escala no Brasil).
 
 ---
-
-## 🚀 Como executar
-
-1. Baixe todos os arquivos.
-2. Coloque-os na mesma pasta.
-3. Abra a pasta no Visual Studio Code.
-4. Execute o arquivo **index.html** em um navegador.
-
----
-
-## 📚 Referências
-
-Os textos deste projeto foram escritos por:
-
-**Isabela Matos de Jesus Bulcão**
-
-Elementos gráficos elaborados com auxílio da plataforma Canva.
-
-Sites utilizados para pesquisa:
-
-- Regeneration International
-- The Rodale Institute
-- Kiss the Ground
-- Savory Institute
-- Rizoma Agro
-- Pretaterra
-
----
-
-## 👩‍💻 Desenvolvimento
-
-Este site foi desenvolvido utilizando HTML, CSS e JavaScript no Visual Studio Code.
-
-O HTML foi utilizado para estruturar as páginas.
-
-O CSS foi utilizado para criar o design e tornar o site mais agradável visualmente.
-
-O JavaScript foi utilizado para desenvolver o chat interativo e os recursos de acessibilidade.
-
----
-
-## 🌎 Mensagem final
-
-Pequenas ações de hoje podem regenerar o solo e construir um futuro mais sustentável para todos.
-
-🌱 *Raízes do Amanhã – Cultivando hoje o futuro de amanhã.*
+✨ *Desenvolvido com carinho para o Agrinho 2026! Se gostou, deixe uma estrelinha no repositório!* 🐝
