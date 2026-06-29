@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
 
     <style>
-        <!--cores-->
+        /* Variáveis de cores para o tema Verde, Rosa e Amarelo */
         :root {
             --verde-escuro: #2D5A27;
             --verde-claro: #E8F5E9;
@@ -21,7 +21,7 @@
             --tamanho-fonte: 16px;
         }
 
-        <!--corpo do texto-->
+        /* Estilos Gerais do Corpo */
         body {
             font-family: 'Quicksand', sans-serif;
             font-size: var(--tamanho-fonte);
@@ -37,7 +37,7 @@
             color: var(--verde-escuro);
         }
 
-        <!--botão de acesso-->
+        /* Barra de Acessibilidade */
         .acessibilidade {
             background-color: var(--amarelo);
             padding: 10px;
@@ -61,7 +61,7 @@
             color: white;
         }
 
-        <!--cabeçalho-->
+        /* Cabeçalho do Site */
         header {
             background-color: white;
             text-align: center;
@@ -81,14 +81,14 @@
             font-size: 1.2rem;
         }
 
-        <!--conteúdo-->
+        /* Container de Conteúdo */
         .container {
             max-width: 800px;
             margin: 30px auto;
             padding: 20px;
         }
 
-        <!--estilo dos paragrafos-->
+        /* Estilo dos Cards de Seções */
         section {
             background: white;
             padding: 30px;
@@ -98,7 +98,7 @@
             box-shadow: 0 4px 10px rgba(0,0,0,0.03);
         }
 
-        <!--margem-->
+        /* Estilização fofa para listas */
         ul, ol {
             padding-left: 20px;
         }
@@ -107,7 +107,7 @@
             margin-bottom: 10px;
         }
 
-        <!--imagem-->
+        /* Imagens Ilustrativas Flutuantes/Centralizadas */
         .decoracao-img {
             display: block;
             max-width: 100%;
@@ -117,7 +117,7 @@
             border: 4px dashed var(--amarelo);
         }
 
-        <!--chat-->
+        /* Chat de Interação Automático */
         .chat-container {
             background-color: var(--rosa-fundo);
             border: 3px solid var(--rosa-principal);
@@ -177,7 +177,7 @@
             cursor: pointer;
         }
 
-        <!--rodapé-->
+        /* Rodapé */
         footer {
             text-align: center;
             padding: 30px;
@@ -267,15 +267,15 @@
     </footer>
 
     <script>
-        <!--acessibilidade-->
+        // Função de Acessibilidade para Mudar o Tamanho do Texto
         let tamanhoAtual = 16;
         function mudarFonte(acao) {
             tamanhoAtual += (acao * 2);
-            <!--muda o tamanho da fonte-->
+            // Aplica o novo tamanho de fonte na variável do CSS
             document.documentElement.style.setProperty('--tamanho-fonte', tamanhoAtual + 'px');
         }
 
-        <!--respostas do chat-->
+        // Função do Chat Inteligente com respostas baseadas em palavras-chave
         function enviarMensagem() {
             const input = document.getElementById('chatInput');
             const texto = input.value.trim();
@@ -283,11 +283,11 @@
 
             const janela = document.getElementById('chatJanela');
 
-            <!--adiciona mensagens aos visitantes-->
+            // Adiciona a mensagem do usuário na tela
             janela.innerHTML += `<div class="mensagem msg-usuario">${texto}</div>`;
             input.value = '';
 
-            <!--respostas automáticas-->
+            // Lógica inteligente de respostas automáticas sobre agricultura regenerativa
             let respostaBot = "Hum, que pergunta interessante! Na agricultura regenerativa, buscamos sempre trabalhar a favor da natureza. Experimente pesquisar sobre biofertilizantes ou compostagem para este caso! 🌾";
             
             const textoMinusculo = texto.toLowerCase();
@@ -300,7 +300,7 @@
                 respostaBot = "🐝 Em vez de veneno, usamos o Manejo Integrado de Pragas (MIP). Aumentar a diversidade de plantas atrai predadores naturais (como joaninhas), que controlam as pragas de forma biológica e sem custo!";
             }
 
-            <!--caso o chat não entenda a pergunta-->
+            // Simula o Bot respondendo após um pequeno delay fofo
             setTimeout(() => {
                 janela.innerHTML += `<div class="mensagem msg-bot">${respostaBot}</div>`;
                 janela.scrollTop = janela.scrollHeight; // Rola o chat para baixo
