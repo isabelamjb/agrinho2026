@@ -1,32 +1,26 @@
-# 🌱 Projeto Agrinho 2026: Raízes do Lucro 🌸
+🌱 Projeto Agrinho 2026: Raízes do Lucro 🌸
 
-Bem-vindo ao repositório do **Raízes do Lucro**, um site focado em espalhar as práticas e colher os frutos da **Agricultura Regenerativa** de forma simples, econômica e acessível! 
+Um site focado em espalhar as práticas e colher os frutos da Agricultura Regenerativa de forma simples, econômica e acessível! 
 
----
 
-## 👩‍💻 Como o site foi desenvolvido?
+ 👩‍💻 Como o site foi desenvolvido?
 
-Este site foi construído do zero com foco em leveza, acessibilidade e design lúdico. O processo de criação seguiu as seguintes etapas:
+Este site foi construído com estética rosa e amarela, acessibilidade e com chats para perguntas. O processo de criação seguiu as seguintes etapas:
 
-1. **Planejamento de Identidade Visual:** Escolha de uma paleta de cores inspirada na natureza alegre (Tons de Verde Orgânico 🟢, detalhes em Rosa Floral 🌸 e destaques em Amarelo Sol 🟡).
-2. **Estruturação HTML5:** Uso de tags semânticas obrigatórias como `<header>`, `<section>`, `<ol>`, `<ul>` e `<footer>` para manter a organização que aprendemos nas aulas de Educação Digital.
-3. **Estilização com CSS3:** Aplicação de fontes fofas importadas diretamente do Google Fonts (`Fredoka` para títulos estruturados e `Quicksand` para leitura confortável), bordas arredondadas e cards flutuantes inspirados em páginas modernas de sementes orgânicas.
-4. **Interatividade com JavaScript:**
-   - Desenvolvimento de uma **Barra de Acessibilidade** dinâmica que aumenta ou diminui o tamanho de toda a tipografia do site em tempo real para pessoas com dificuldades visuais.
-   - Criação de um **Chatbot de Interação Inteligente** que intercepta palavras-chave do usuário (como *fertilizantes, pragas ou solo*) e sugere alternativas biológicas baseadas na ciência regenerativa automaticamente.
+1. Escolha de uma paleta de cores inspirada na natureza(Verde, Rosa e Amarelo).
+2. Uso de tags semânticas passadas pela professora de Educação Digital.
+3. Fontes do Google Fonts (`Fredoka` para títulos e `Quicksand` para leitura).
+4. Um botão de acessibilidade que aumenta ou diminui o tamanho de todo o site para pessoas com dificuldades visuais.
+   Criação de um chat de perguntas que reconhesce palavras-chave do usuário (como fertilizantes, pragas ou solo) e sugere alternativas biológicas baseadas na ciência regenerativa automaticamente.
 
----
+📚 Referências Bibliográficas e Créditos
 
-## 📚 Referências Bibliográficas e Créditos
+Todos os textos, objetivos e metodos de implantação no site foram desenvolvidos por ''Isabela Matos de Jesus Bulcão''.
 
-> 📢 **Nota de Autoria:** Todos os textos conceituais, objetivos, metodologias de implantação e linhas do tempo presentes no site foram desenvolvidos e redigidos originalmente por **Isabela Matos de Jesus Bulcão**.
+Para ter uma base sobre o conteúdo foram consultados os seguintes sites da internet:
 
-Para embasamento e estudos sobre os pilares técnicos, foram consultadas as seguintes bases de referência da internet:
+https://www.embrapa.br/busca-de-noticias/-/noticia/90285437/artigo---agricultura-regenerativa--o-que-significa-o-que-regenerar
 
-* **Regeneration International:** [regenerationinternational.org](https://regenerationinternational.org) (Abordagem global sobre sequestro de carbono e saúde do solo).
-* **The Rodale Institute:** [rodaleinstitute.org](https://rodaleinstitute.org) (Dados sobre produtividade orgânica a longo prazo).
-* **Savory Institute:** [savory.global](https://savory.global) (Princípios do Manejo Holístico de pastagens aplicado no Brasil).
-* **Rizoma Agro:** [rizomaagro.com](https://www.rizomaagro.com) (Estudos de viabilidade econômica e agricultura em larga escala no Brasil).
+https://ccarbon.usp.br/pt/agricultura-regenerativa-o-caminho-para-uma-producao-sustentavel/
 
----
-✨ *Desenvolvido com carinho para o Agrinho 2026! Se gostou, deixe uma estrelinha no repositório!* 🐝
+https://croplifebrasil.org/agricultura-regenerativa/
