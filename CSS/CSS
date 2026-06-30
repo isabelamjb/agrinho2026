@@ -1,4 +1,4 @@
-/* Variáveis de cores para o tema Verde, Rosa e Amarelo */
+/* Variáveis de cores verde, rosa e amarelo */
 :root {
     --verde-escuro: #2D5A27;
     --verde-claro: #E8F5E9;
@@ -9,7 +9,7 @@
     --tamanho-fonte: 16px;
 }
 
-/* Estilos Gerais do Corpo */
+/* Corpo do texto */
 body {
     font-family: 'Quicksand', sans-serif;
     font-size: var(--tamanho-fonte);
@@ -25,7 +25,7 @@ h1, h2, h3 {
     color: var(--verde-escuro);
 }
 
-/* Barra de Acessibilidade */
+/* Botão de acessibilidade */
 .acessibilidade {
     background-color: var(--amarelo);
     padding: 10px;
@@ -69,14 +69,14 @@ header h1 {
     font-size: 1.2rem;
 }
 
-/* Container de Conteúdo */
+/* Conteúdo */
 .container {
     max-width: 800px;
     margin: 30px auto;
     padding: 20px;
 }
 
-/* Estilo dos Cards de Seções */
+/* Estilo dos cards */
 section {
     background: white;
     padding: 30px;
@@ -86,7 +86,7 @@ section {
     box-shadow: 0 4px 10px rgba(0,0,0,0.03);
 }
 
-/* Estilização fofa para listas */
+/* Estilização */
 ul, ol {
     padding-left: 20px;
 }
@@ -95,7 +95,7 @@ li {
     margin-bottom: 10px;
 }
 
-/* Imagens Ilustrativas Flutuantes/Centralizadas */
+/* Imagens */
 .decoracao-img {
     display: block;
     max-width: 100%;
@@ -105,7 +105,7 @@ li {
     border: 4px dashed var(--amarelo);
 }
 
-/* Chat de Interação Automático */
+/* Chat */
 .chat-container {
     background-color: var(--rosa-fundo);
     border: 3px solid var(--rosa-principal);
