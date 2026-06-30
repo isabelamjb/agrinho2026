@@ -1,0 +1,40 @@
+// Função de Acessibilidade para Mudar o Tamanho do Texto
+let tamanhoAtual = 16;
+
+function mudarFonte(acao) {
+    tamanhoAtual += (acao * 2);
+    // Aplica o novo tamanho de fonte na variável do CSS
+    document.documentElement.style.setProperty('--tamanho-fonte', tamanhoAtual + 'px');
+}
+
+// Função do Chat Inteligente com respostas baseadas em palavras-chave
+function enviarMensagem() {
+    const input = document.getElementById('chatInput');
+    const texto = input.value.trim();
+    if (!texto) return;
+
+    const janela = document.getElementById('chatJanela');
+
+    // Adiciona a mensagem do usuário na tela
+    janela.innerHTML += `<div class="mensagem msg-usuario">${texto}</div>`;
+    input.value = '';
+
+    // Lógica inteligente de respostas automáticas sobre agricultura regenerativa
+    let respostaBot = "Hum, que pergunta interessante! Na agricultura regenerativa, buscamos sempre trabalhar a favor da natureza. Experimente pesquisar sobre biofertilizantes ou compostagem para este caso! 🌾";
+    
+    const textoMinusculo = texto.toLowerCase();
+
+    if (textoMinusculo.includes('fertilizante') || textoMinusculo.includes('adubo') || textoMinusculo.includes('substituir')) {
+        respostaBot = "💡 **Dica Regenerativa:** Você pode substituir fertilizantes químicos usando **compostagem orgânica**, **biofertilizantes líquidos** enriquecidos com microrganismos nativos ou fazendo **adubação verde** (plantas como leguminosas que fixam nitrogênio no solo naturalmente)!";
+    } else if (textoMinusculo.includes('solo') || textoMinusculo.includes('fraco') || textoMinusculo.includes('recuperar')) {
+        respostaBot = "🌱 Para solos fracos, a regra de ouro é **nunca deixar o solo descoberto**! Use palhada ou plantas de cobertura (como milheto ou crotalária) para reestruturar a terra e alimentar a biologia do solo.";
+    } else if (textoMinusculo.includes('inseto') || textoMinusculo.includes('praga') || textoMinusculo.includes('defensivo')) {
+        respostaBot = "🐝 Em vez de veneno, usamos o Manejo Integrado de Pragas (MIP). Aumentar a diversidade de plantas atrai predadores naturais (como joaninhas), que controlam as pragas de forma biológica e sem custo!";
+    }
+
+    // Simula o Bot respondendo após um pequeno delay fofo
+    setTimeout(() => {
+        janela.innerHTML += `<div class="mensagem msg-bot">${respostaBot}</div>`;
+        janela.scrollTop = janela.scrollHeight; // Rola o chat para baixo
+    }, 500);
+}
