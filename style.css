@@ -44,14 +44,14 @@ h1, h2, h3 {
     cursor: pointer;
     border-radius: 20px;
     margin: 0 6px;
-    transition: background-color 0.3s ease, transform 0.2s; /* Transição suave quando passa o mouse */
+    transition: background-color 0.3s ease, transform 0.2s;
 }
 
 /* Efeito visual quando passamos o mouse por cima do botão */
 .btn-acessibilidade:hover {
     background-color: var(--rosa-principal);
     color: #ffffff;
-    transform: scale(1.05); /* Dá um leve zoom para dar sensação de clique */
+    transform: scale(1.05);
 }
 
 /* Cabeçalho principal com bordas inferiores bem arredondadas */
@@ -119,7 +119,7 @@ header h1 {
 
 .tabuleiro-jogo {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Cria as 4 colunas de tamanhos iguais */
+    grid-template-columns: repeat(4, 1fr);
     gap: 12px;
     max-width: 440px;
     margin: 25px auto;
@@ -135,7 +135,7 @@ header h1 {
     justify-content: center;
     font-size: 2.2rem;
     cursor: pointer;
-    color: transparent; /* Esconde o emoji enquanto a carta está fechada */
+    color: transparent; /* Esconde o símbolo interno quando fechada */
     user-select: none;
     transition: transform 0.3s ease, background-color 0.3s;
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
@@ -145,8 +145,8 @@ header h1 {
 .carta.virada {
     background-color: #ffffff;
     border: 3px solid var(--verde-escuro);
-    color: initial; /* Mostra o emoji interno */
-    transform: rotateY(180deg); /* Efeito de giro tridimensional */
+    color: initial; /* Mostra o símbolo real na tela */
+    transform: rotateY(180deg);
 }
 
 /* Como a carta fica quando o par correto é encontrado */
@@ -184,7 +184,7 @@ header h1 {
 .chat-janela {
     background: #ffffff;
     height: 280px;
-    overflow-y: auto; /* Cria o scroll se o texto ultrapassar a altura */
+    overflow-y: auto;
     border-radius: 22px;
     padding: 20px;
     margin-bottom: 18px;
@@ -200,14 +200,14 @@ header h1 {
     font-size: 0.95rem;
 }
 
-/* Mensagem enviada pelo visitante (alinhada à direita e amarela) */
+/* Mensagem enviada pelo visitante */
 .msg-usuario {
     background-color: var(--amarelo-destaque);
     margin-left: auto;
     border-bottom-right-radius: 4px;
 }
 
-/* Mensagem respondida pelo robô (alinhada à esquerda e verde) */
+/* Mensagem respondida pelo robô */
 .msg-bot {
     background-color: var(--verde-claro);
     color: var(--verde-escuro);
@@ -221,7 +221,7 @@ header h1 {
 }
 
 .chat-input-area input {
-    flex: 1; /* Faz o campo de texto ocupar todo o espaço que sobrar */
+    flex: 1;
     padding: 14px;
     border: 2px solid var(--rosa-principal);
     border-radius: 24px;
