@@ -5,88 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Raízes do Lucro</title>
     
+    <link rel="stylesheet" href="style.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="acessibilidade">
-        <button class="btn-acessibilidade" onclick="mudarFonte(1)">A+ Aumentar Letra 🔍</button>
-        <button class="btn-acessibilidade" onclick="mudarFonte(-1)">A- Diminuir Letra ↩️</button>
+        <button class="btn-acessibilidade" id="btnAumentar" onclick="mudarFonte(1)">A+ Aumentar Letra 🔍</button>
+        <button class="btn-acessibilidade" id="btnDiminuir" onclick="mudarFonte(-1)">A- Diminuir Letra ↩️</button>
     </div>
 
     <header>
-        <h1>🌱 Raízes do Lucro 🌸</h1>
-        <p class="subtitulo-header">Transformando o futuro através da Agricultura Regenerativa</p>
+        <h1 id="tituloPrincipal">🌱 Raízes do Lucro 🌸</h1>
+        <p class="subtitulo-header">Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</p>
     </header>
 
     <div class="container">
         
-        <section>
+        <section class="card-informativo">
             <h2>Sobre o Nosso Projeto</h2>
             <p>Minha empresa fez um plano de agricultura regenerativa para aplicarmos em nossos futuros clientes. Vemos abaixo como funcionará:</p>
             
             <h3>🎯 Objetivo</h3>
-            <p>Regenerar o solo e a paisagem para aumentar a biodiversidade, melhorar a retenção de água, sequestrar carbono aumentar a produtividade de forma fácil e econômica.</p>
+            <p>Regenerar o solo e a paisagem para aumentar a biodiversidade, melhorar a retenção de água, sequestrar carbono e aumentar a produtividade de forma fácil e econômica.</p>
         </section>
 
-        <img class="decoracao-img" src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=600&q=80" alt="Ilustração de plantas brotando do solo fértil">
+        <img class="decoracao-img" src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=600&q=80" alt="Plantas brotando em solo saudável com manejo regenerativo">
 
-        <section>
+        <section class="card-informativo">
             <h2>🛠️ Práticas Adotadas</h2>
             <p>Adotamos na nossa empresa práticas que protejam e reconstruam o solo. As principais ações incluem:</p>
-            <ul>
+            <ul class="lista-customizada">
                 <li>Manter o solo coberto com palhada e plantas de cobertura;</li>
                 <li>Plantar sempre que possível;</li>
-                <li>Integrar árvores, lavoura e pecuária;</li>
+                <li>Integrar árvores, lavoura e pecuária (ILPF);</li>
                 <li>Aplicar compostagem e biofertilizantes para devolver matéria orgânica;</li>
-                <li>Usar manejo holístico nas pastagens.</li>
+                <li>Usar manejo holístico e integrado nas pastagens.</li>
             </ul>
 
-            <h3>🚀 Como Começamos</h3>
-            <ol>
-                <li><strong>Avaliação:</strong> analisar histórico da área, coletar amostras de solo e mapear água e microclimas.</li>
-                <li><strong>Piloto:</strong> implementar as práticas em uma parcela teste para ajustar espécies e manejo.</li>
-                <li><strong>Escalonamento:</strong> ampliar as técnicas bem-sucedidas, priorizando cobertura do solo e manejo da água.</li>
-                <li><strong>Capacitação:</strong> treinar as pessoas envolvidas e buscar assistência técnica.</li>
+            <h3>🚀 Como Começamos (Cronograma de Implantação)</h3>
+            <ol class="lista-ordenada">
+                <li><strong>Avaliação:</strong> Analisar histórico da área, coletar amostras de solo e mapear água e microclimas.</li>
+                <li><strong>Piloto:</strong> Implementar as práticas em uma parcela teste para ajustar espécies e manejo local.</li>
+                <li><strong>Escalonamento:</strong> Ampliar as técnicas bem-sucedidas, priorizando a cobertura constante do solo.</li>
+                <li><strong>Capacitação:</strong> Treinar as pessoas envolvidas e buscar constante assistência técnica.</li>
             </ol>
         </section>
 
-        <section>
+        <section class="card-informativo">
             <h2>📈 Linha do Tempo de Resultados (1 a 5 anos)</h2>
-            <ul>
-                <li><strong>1 ano:</strong> aumento de cobertura do solo, menos erosão e melhora inicial na infiltração de água.</li>
-                <li><strong>3 anos:</strong> subida visível de matéria orgânica do solo, maior diversidade de plantas e polinizadores; estabilidade na produção.</li>
-                <li><strong>5 anos:</strong> solo mais fértil, maior capacidade de retenção de água, redução de insumos químicos e sequestro crescente de carbono.</li>
+            <p>A recuperação ambiental caminha lado a lado com a estabilidade financeira do produtor:</p>
+            <ul class="lista-customizada">
+                <li><strong>1 ano:</strong> Aumento visível da cobertura do solo, contenção de processos de erosão e melhora inicial na infiltração de água.</li>
+                <li><strong>3 anos:</strong> Subida mensurável de matéria orgânica no solo, maior diversidade de plantas e insetos polinizadores; estabilidade produtiva.</li>
+                <li><strong>5 anos:</strong> Solo altamente fértil, máxima capacidade de retenção hídrica, redução drástica de insumos químicos industriais e sequestro crescente de carbono.</li>
             </ul>
 
             <h3>📊 Indicadores de Sucesso</h3>
-            <p>Monitoraremos matéria orgânica do solo, porosidade/infiltração, diversidade de plantas e insetos, produção por hectare e uso de insumos.</p>
+            <p>Monitoraremos de perto a porcentagem de matéria orgânica profunda, porosidade física do solo, diversidade biológica de macrofauna e taxa de produção por hectare.</p>
 
             <h3>💰 Investimento e Riscos</h3>
-            <p>Custos iniciais tendem a ser moderados (sementes de cobertura, equipamentos para plantio direto, insumos para compostagem). Riscos incluem adaptação local de espécies e tempo para recuperação; iremos fazer testes piloto e assistência técnica.</p>
+            <p>Custos iniciais moderados direcionados a sementes de cobertura e adequação para plantio direto. Riscos mitigados através de talhões piloto controlados e assistência técnica.</p>
         </section>
 
-        <div class="chat-container">
-            <h3>💬 Assistente de Agricultura Regenerativa 🐝</h3>
-            <p><small>Pergunte algo como: "Como substituir meu fertilizante químico?" ou tire suas dúvidas abaixo!</small></p>
-            <div class="chat-janela" id="chatJanela">
-                <div class="mensagem msg-bot">Olá! Sou o assistente do Raízes do Lucro. Como posso te ajudar com a transição para a agricultura regenerativa hoje?</div>
+        <section class="secao-jogo" id="secaoKids">
+            <h2>🎮 Espaço Kids: Jogo da Memória da Natureza 🐝</h2>
+            <p>Descubra os pares e aprenda os elementos que mantém o solo vivo e equilibrado!</p>
+            <div class="tabuleiro-jogo" id="tabuleiro"></div>
+            <div class="alerta-vitoria" id="mensagemVitoria">
+                <p>🎉 Incrível! Você encontrou todos os pares e protegeu o ecossistema! 🌟</p>
             </div>
+        </section>
+
+        <div class="chat-container" id="containerChat">
+            <h3>💬 Assistente de Transição Ecológica 🌾</h3>
+            <p><small>Converse com nosso sistema inteligente para tirar dúvidas sobre manejo sustentável e bioinsumos.</small></p>
+            
+            <div class="chat-janela" id="chatJanela">
+                <div class="mensagem msg-bot">Olá! Seja bem-vindo ao portal Raízes do Lucro. Para começarmos, por favor, me informe o seu nome para um atendimento personalizado:</div>
+            </div>
+            
             <div class="chat-input-area">
-                <input type="text" id="chatInput" placeholder="Digite sua dúvida aqui..."/>
-                <button onclick="enviarMensagem()">Enviar</button>
+                <input type="text" id="chatInput" placeholder="Digite seu nome ou sua pergunta aqui..." aria-label="Entrada de texto para o chat"/>
+                <button id="btnEnviar" onclick="processarChat()">Enviar</button>
             </div>
         </div>
 
     </div>
 
-    <footer>
-        <p>📝 Textos autorais desenvolvidos por: <strong>Isabela Matos de Jesus Bulcão</strong></p>
-        <p>© 2026 - Projeto Agrinho: Raízes do Lucro. Todos os direitos reservados.</p>
+    <footer id="rodapePagina">
+        <p>📝 Conteúdo e textos autorais desenvolvidos por: <strong>Isabela Matos de Jesus Bulcão</strong></p>
+        <p>© 2026 - Concurso Agrinho. Orgulho em cultivar o amanhã de forma sustentável.</p>
     </footer>
 
     <script src="script.js"></script>

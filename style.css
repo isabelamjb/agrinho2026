@@ -1,0 +1,257 @@
+/* Central de controle de cores do nosso site */
+:root {
+    --verde-escuro: #2D5A27;
+    --verde-claro: #E8F5E9;
+    --rosa-principal: #FF8DA1;
+    --rosa-fundo: #FFF0F2;
+    --amarelo-destaque: #FFF176;
+    --cor-texto: #333333;
+    --fonte-base: 16px; /* Tamanho padrão que o JavaScript vai alterar se o usuário pedir */
+}
+
+/* Configurações básicas de texto e fundo da página */
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: var(--fonte-base);
+    color: var(--cor-texto);
+    background-color: var(--verde-claro);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Estilo para os títulos usando uma fonte mais encorpada e divertida */
+h1, h2, h3 {
+    font-family: 'Fredoka', sans-serif;
+    color: var(--verde-escuro);
+}
+
+/* Faixa superior amarela onde ficam os botões de tamanho de letra */
+.acessibilidade {
+    background-color: var(--amarelo-destaque);
+    padding: 12px;
+    text-align: center;
+    border-bottom: 3px solid var(--rosa-principal);
+}
+
+/* Botões fofos e arredondados de acessibilidade */
+.btn-acessibilidade {
+    background-color: #ffffff;
+    border: 2px solid var(--verde-escuro);
+    padding: 6px 18px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 0 6px;
+    transition: background-color 0.3s ease, transform 0.2s; /* Transição suave quando passa o mouse */
+}
+
+/* Efeito visual quando passamos o mouse por cima do botão */
+.btn-acessibilidade:hover {
+    background-color: var(--rosa-principal);
+    color: #ffffff;
+    transform: scale(1.05); /* Dá um leve zoom para dar sensação de clique */
+}
+
+/* Cabeçalho principal com bordas inferiores bem arredondadas */
+header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 45px 20px;
+    border-radius: 0 0 50px 50px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.04);
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin: 0 0 10px 0;
+}
+
+.subtitulo-header {
+    color: var(--rosa-principal);
+    font-weight: 700;
+    font-size: 1.15rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Centralizador do conteúdo para o site não ficar espalhado em telas grandes */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Caixas brancas elegantes com uma borda rosa charmosa na esquerda */
+.card-informativo {
+    background: #ffffff;
+    padding: 35px;
+    margin-bottom: 35px;
+    border-radius: 30px;
+    border-left: 8px solid var(--rosa-principal);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.02);
+}
+
+.lista-customizada li, .lista-ordenada li {
+    margin-bottom: 12px;
+}
+
+/* Estilização da foto com borda tracejada amarela */
+.decoracao-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 25px;
+    border: 4px dashed var(--amarelo-destaque);
+}
+
+/* Estrutura do jogo usando Grid para organizar em 4 colunas perfeitas */
+.secao-jogo {
+    background-color: #FFFDE7;
+    border-left: 8px solid var(--amarelo-destaque);
+    padding: 30px;
+    margin-bottom: 35px;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.02);
+}
+
+.tabuleiro-jogo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cria as 4 colunas de tamanhos iguais */
+    gap: 12px;
+    max-width: 440px;
+    margin: 25px auto;
+}
+
+/* Visual inicial de cada carta antes de ser virada */
+.carta {
+    height: 90px;
+    background-color: var(--rosa-principal);
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    cursor: pointer;
+    color: transparent; /* Esconde o emoji enquanto a carta está fechada */
+    user-select: none;
+    transition: transform 0.3s ease, background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Como a carta se comporta quando clicamos nela */
+.carta.virada {
+    background-color: #ffffff;
+    border: 3px solid var(--verde-escuro);
+    color: initial; /* Mostra o emoji interno */
+    transform: rotateY(180deg); /* Efeito de giro tridimensional */
+}
+
+/* Como a carta fica quando o par correto é encontrado */
+.carta.combinada {
+    background-color: var(--verde-claro);
+    border: 3px solid var(--verde-escuro);
+    color: initial;
+    cursor: default;
+    transform: scale(0.95);
+}
+
+/* Mensagem de sucesso escondida que aparece no final do jogo */
+.alerta-vitoria {
+    display: none;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.2rem;
+    color: var(--verde-escuro);
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px dashed var(--verde-escuro);
+    margin-top: 20px;
+}
+
+/* Caixa de chat em tons pastéis usando Flexbox para organizar a digitação */
+.chat-container {
+    background-color: var(--rosa-fundo);
+    border: 3px solid var(--rosa-principal);
+    border-radius: 32px;
+    padding: 25px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.03);
+}
+
+.chat-janela {
+    background: #ffffff;
+    height: 280px;
+    overflow-y: auto; /* Cria o scroll se o texto ultrapassar a altura */
+    border-radius: 22px;
+    padding: 20px;
+    margin-bottom: 18px;
+    border: 1px solid #e2e8f0;
+}
+
+/* Estilo balão das mensagens */
+.mensagem {
+    margin-bottom: 14px;
+    padding: 12px 16px;
+    border-radius: 18px;
+    max-width: 75%;
+    font-size: 0.95rem;
+}
+
+/* Mensagem enviada pelo visitante (alinhada à direita e amarela) */
+.msg-usuario {
+    background-color: var(--amarelo-destaque);
+    margin-left: auto;
+    border-bottom-right-radius: 4px;
+}
+
+/* Mensagem respondida pelo robô (alinhada à esquerda e verde) */
+.msg-bot {
+    background-color: var(--verde-claro);
+    color: var(--verde-escuro);
+    border-bottom-left-radius: 4px;
+}
+
+/* Organização em linha da caixa de entrada de texto e do botão */
+.chat-input-area {
+    display: flex;
+    gap: 12px;
+}
+
+.chat-input-area input {
+    flex: 1; /* Faz o campo de texto ocupar todo o espaço que sobrar */
+    padding: 14px;
+    border: 2px solid var(--rosa-principal);
+    border-radius: 24px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    outline: none;
+}
+
+.chat-input-area button {
+    background-color: var(--verde-escuro);
+    color: #ffffff;
+    border: none;
+    padding: 0 25px;
+    border-radius: 24px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.chat-input-area button:hover {
+    background-color: #1e3d1a;
+}
+
+/* Rodapé escuro que fecha a página de forma elegante */
+footer {
+    text-align: center;
+    padding: 35px 20px;
+    background-color: var(--verde-escuro);
+    color: #ffffff;
+    margin-top: 60px;
+    border-radius: 40px 40px 0 0;
+}
