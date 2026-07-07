@@ -1,6 +1,6 @@
 # 🌱 Projeto Agrinho 2026: Raízes do Lucro
 > **Hashtag Oficial:** #agrinho2026  
-> **Link de Hospedagem:** (Aqui você pode colocar o link do seu site depois que postar no GitHub Pages)
+> **Link de Hospedagem:** (https://isabelamjb.github.io/agrinho2026/)
 
 ---
 
